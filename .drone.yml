@@ -3,13 +3,13 @@
 #Author: Arunkumar M
 
 kind: pipeline
-type: kubernetes
+type: docker
 name: default
 
 platform:
   os: linux
   arch: arm64
-  
+
 steps:
 
 - name: build
