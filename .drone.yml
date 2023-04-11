@@ -34,3 +34,8 @@ steps:
       from_secret: AWS_REGION
     tags:
         - '1.0.${DRONE_BUILD_NUMBER}'
+
+trigger:
+  event:
+    exclude:
+    - pull_request
