@@ -37,9 +37,8 @@ steps:
       from_secret: ECR_REGISTRY
     region:
       from_secret: AWS_REGION
-
     tags:
-        - '1.0.${DRONE_BUILD_NUMBER}'
+        - "1.0.${DRONE_BUILD_NUMBER}"
 
 trigger:
   branch:
