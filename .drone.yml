@@ -34,9 +34,10 @@ steps:
     # session_token: 
     #   from_secret: AWS_SESSION_TOKEN
     registry: 
-      from_secret: AWS_ECR_REGISTRY
+      from_secret: ECR_REGISTRY
     region:
       from_secret: AWS_REGION
+
     tags:
         - '1.0.${DRONE_BUILD_NUMBER}'
 
