@@ -27,12 +27,12 @@ steps:
   settings:
     context: go-example/
     dockerfile: go-example/Dockerfile
-    access_key: 
-      from_secret: AWS_ACCESS_KEY_ID
-    secret_key: 
-      from_secret: AWS_SECRET_ACCESS_KEY
-    session_token: 
-      from_secret: AWS_SESSION_TOKEN
+    # access_key: 
+    #   from_secret: AWS_ACCESS_KEY_ID
+    # secret_key: 
+    #   from_secret: AWS_SECRET_ACCESS_KEY
+    # session_token: 
+    #   from_secret: AWS_SESSION_TOKEN
     registry: 
       from_secret: AWS_ECR_REGISTRY
     region:
