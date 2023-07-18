@@ -35,8 +35,8 @@ steps:
     #   from_secret: AWS_SESSION_TOKEN
     # registry: 
     #   from_secret: ECR_REGISTRY
-    key: ECR_REGISTRY
-    value: "095415062695.dkr.ecr.ap-south-1.amazonaws.com/helloword-app"    
+    repo: "helloword-app"
+    registry: "095415062695.dkr.ecr.ap-south-1.amazonaws.com"
     region:
       from_secret: AWS_REGION
     # tags:
