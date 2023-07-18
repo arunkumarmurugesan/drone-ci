@@ -39,8 +39,8 @@ steps:
     value: "095415062695.dkr.ecr.ap-south-1.amazonaws.com/helloword-app"    
     region:
       from_secret: AWS_REGION
-    tags:
-        - "1.0.${DRONE_BUILD_NUMBER}"
+    # tags:
+    #     - "1.0.${DRONE_BUILD_NUMBER}"
 
 trigger:
   branch:
