@@ -33,8 +33,10 @@ steps:
     #   from_secret: AWS_SECRET_ACCESS_KEY
     # session_token: 
     #   from_secret: AWS_SESSION_TOKEN
-    registry: 
-      from_secret: ECR_REGISTRY
+    # registry: 
+    #   from_secret: ECR_REGISTRY
+    key: ECR_REGISTRY
+    value: "095415062695.dkr.ecr.ap-south-1.amazonaws.com/helloword-app"    
     region:
       from_secret: AWS_REGION
     tags:
